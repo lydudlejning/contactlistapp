@@ -51,5 +51,4 @@ app.put('/contactlist/:id', function (req, res) {
   );
 });
 
-app.listen(tcp/80);
 console.log("Server running on port 3000");
