@@ -17,7 +17,7 @@ app.get('/contactlist', function (req, res) {
 });
 
 app.post('/contactlist', function (req, res) {
-	console.log("POST<br>" + req.body)
+	console.log("POST:" + req.body)
 	db.contactlist.insert(req.body, function(err, doc) {
 		res.json(doc);
 	});
